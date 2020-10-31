@@ -16,6 +16,12 @@ chmod +x /usr/bin/chmown
 $ chown MODE OWNER[:[GROUP]] FILE...
 ```
 
+# Example
+
+```
+$ chown 777 appuser:dev /etc/apache2/httpd.conf
+```
+
 # License
 
 MIT

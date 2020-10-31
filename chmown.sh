@@ -2,6 +2,7 @@
 
 if [ $# -lt 3 ]
 then
+    echo 1>&2 "Perform `chmod` and `chown` operations simultaneously."
     echo 1>&2 "Usage: $0 MODE OWNER[:[GROUP]] FILE..."
     exit 1
 fi
